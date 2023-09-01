@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+    margin-top: auto;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img {
+    width: 230px;
+    height: 230px;
+}
