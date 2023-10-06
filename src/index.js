@@ -5,7 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Fruits from './fruits';
 import Card from './card';
-
+import {State} from './state';
+import Students from './students';
+import { Texno } from './texno';
+import { Dukon } from './dukon';
+import Styl from './styl';
 
 
 
@@ -78,6 +82,18 @@ root.render(
       title='oranges'
       src='https://avatars.mds.yandex.net/i?id=e2304b060d9b63390b87f79c10a16cff95c5906a-8497449-images-thumbs&n=13'/>
     </div>
+    <State/>
+    <div className='con'>
+    <Texno
+    title='Texnomart'
+    src='https://avatars.mds.yandex.net/i?id=754bec84a7b6c960f457dd9e1e54007fd248f0a0-5331420-images-thumbs&n=13'/>
+     <Texno
+    title='Texnomart'
+    src='https://avatars.mds.yandex.net/i?id=754bec84a7b6c960f457dd9e1e54007fd248f0a0-5331420-images-thumbs&n=13'/>
+    <Dukon/>
+    </div>
+    <Styl/>
+    {/* <Students/> */}
     {/* <App /> */}
   </React.StrictMode>
 );

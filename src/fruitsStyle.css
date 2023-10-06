@@ -8,6 +8,20 @@
     border-radius: 20px;
     margin: 20px;
 }
+.con {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
 .subtitle {
     text-align: center;
     font-size: 6rem;
@@ -23,4 +37,10 @@
 .img {
     width: 230px;
     height: 230px;
+}
+.img1 {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
