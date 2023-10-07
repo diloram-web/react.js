@@ -1,5 +1,12 @@
-import styled, {css} from 'styled-components';
-
+import styled, {css,keyframes} from 'styled-components';
+const rotate = keyframes`
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+`;
 
 export const Container=styled("div")`
    display:flex;
@@ -11,6 +18,7 @@ export const Container=styled("div")`
 export const Button=styled("div")`
 background:red;
 width:200px;
+margin:20px;
 height:40px;
 border-radius:8px;
 display:flex;
@@ -19,9 +27,12 @@ justify-content:center;
 color:pink;
 cursor:pointer;
 :active {
-    transform: scale(0.97);
+    transform:scale(0.97);
     opacity:0.7;
 }
+`;
+export const ActiveButton =styled(Button)`
+  height:59px;
 `;
 const common= css`
    color:blue;
@@ -32,6 +43,21 @@ const common= css`
    height:fit-content;
    font-size:20px;
    margin:10px;
+`;
+export const Rotate =styled.div`
+   width:300px;
+   color:blue;
+   height:300px;
+   background:red;
+   border-radius:50%;
+   text-align:center;
+   border:2px solid blue;
+   align-items:center;
+   justify-content:center;
+   font-size:40px;
+   animation:${rotate} 2s linear infinite;
+
+
 `;
 
 export const Title=styled.h1`
