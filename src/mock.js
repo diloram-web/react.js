@@ -3,12 +3,182 @@
 
 
 
-export const student = [
-    {id:1,name:'dilorom',status:'IT'},
-    {id:2,name:'dil',status:'BS'},
-    {id:3,name:'dilmurod',status:'BA'},
-    {id:4,name:'dilrabo',status:'CS'},
-    {id:5,name:'Murtozo',status:'AI'},
-    {id:6,name:'dilrabo',status:'CM'},
-    {id:7,name:'Murtozo',status:'AR'},
+export const data = [
+    {
+        id:1,
+        title:'besh kunlik dunyo',
+        video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+        view:'1.48 million see',
+        time:' 15 hours before',
+        user:{
+          img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+          name:'Ahmadalieva Dilorom Usmanalievna'
+    }
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+{
+    id:1,
+    title:'besh kunlik dunyo',
+    video:'https://www.youtube.com/watch?v=gkBEd41mOIo&pp=ygUabW92aWVzIDIwMjMgZnVsbCBtb3ZpZSBpbWc%3D',
+    view:'1.48 million see',
+    time:' 15 hours before',
+    user:{
+      img:'https://thumbs.dreamstime.com/b/значок-характера-воплощения-коммерсантки-дизайн-иллюстрации-вектора-144322274.jpg',
+      name:'Ahmadalieva Dilorom Usmanalievna'
+}
+},
+    
 ];
