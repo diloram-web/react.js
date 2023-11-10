@@ -7,13 +7,13 @@ export default class TouTube extends Component {
     render(){
         return <Container>
             
-            {sidebar.map(({icon,id,title,data})=>(
-                    <Wrapper key={id} >
+            {sidebar.map(({icon,id,title,data},index)=>(
+                    <Wrapper key={index} >
                         {title &&
-                        <Title title>{title}</Title>}
+                        <Title title='true'>{title}</Title>}
                         {
-                          data.map(({icon:Icon,title:subTitle})=>(
-                            < ItemWrapper>
+                          data.map(({icon:Icon,title:subTitle},index)=>(
+                            < ItemWrapper key={index}>
                                <Icon/>
                                <Title>{subTitle}</Title> 
                             </ItemWrapper>
